@@ -6,7 +6,7 @@ const choices = document.getElementsByClassName('choice-text');*/
 const question = document.querySelector('#question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 
-// prepare variables
+// prepare variables.
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
