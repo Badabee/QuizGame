@@ -8,6 +8,5 @@ finalScore.innerText = mostRecentScore;
 username.addEventListener('keyup', () => saveScoreBtn.disabled = !username.value);
 
 const saveHighScore = e => {
-  // stop the form from submitting to a different page
   e.preventDefault();
 }
